@@ -1,0 +1,30 @@
+#Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 150px;
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-left: 300px;
+  border-radius: 20px;
+  border-color:#FF9EAA;
+  border-style: solid;
+  background-color: #FAF0E4;
+}
+
+
+@media  (max-width:965px){
+  input{
+    width: 100px;
+  }
+}
+
+.btn:hover{
+  background-color: chartreuse;
+}
+
+ul{
+  list-style: circle;
+}
