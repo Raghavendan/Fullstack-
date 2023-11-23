@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+
+}
+
+.navbar{
+  position: relative;
+  display: flex;
+  height: 50px;
+  background: white;
+}
+.main{
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(4, 4, 4);
+  text-shadow: 2px 2px 5px rgb(0, 183, 255);
+  
+
+}
+.navtit1, .navtit2, .navtit3, .navtit4{
+  display: flex;
+  width: 100px;
+  position: relative;
+  justify-content: space-evenly;
+  align-items:right;
+  float: right;
+  color: #030303;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 40px;
+  align-items: right;
+  font-weight: 550;
+  white-space: nowrap;
+    
+}
+.navtit1:hover{
+  transition: .2s;
+  margin-top: 10px;
+  margin-right: 40px;
+  color: white;  
+  background-color: #030303;
+  width: 300px;
+  height: 25px;
+  border-radius: 20px;
+}
+.navtit2,.navtit3:hover,.navtit4:hover{
+  transition: all .2s;
+  margin-top: 10px;
+  margin-right: 40px;
+  color: white;  
+  background-color: #030303;
+  width: 120px;
+  height: 25px;
+  border-radius: 20px;
+}
+.about{
+    display: flex;
+    padding-top: -20px;    
+    height: 90vh;
+    width: 100%;
+    background: url('https://www.teahub.io/photos/full/38-385059_new-york-apartment.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(100px);
+}
+h2{
+    color: white;
+    text-align: center;
+    width: 60px;
+    text-shadow: 2px 2px 5px #030303;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #d0d6da 0%, #6c6d71 100%);
+
+}
+.about{
+  display: flex;
+  justify-content: space-evenly;
+}
+.management,.complaints,.service{
+  background: transparent;
+  margin-top: 30px;
+  margin-left: 5px;
+  padding-right: 15px;
+  width: 400px;
+  height: 400px;
+  border: 2px solid rgba(2, 2, 2, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+}
+h3{
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(250, 251, 252);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p{
+  color: white;
+  margin-left: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+span{
+  color: white;
+  margin-left: 5px;
+  text-shadow: 2px 2px 5px rgb(3, 3, 3);
+
+}
+.fbody{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 70vh;
+  margin-top: -300px;
+}
+.ftit{
+  
+   font-size: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+   font: bold;    
+   color: rgb(4, 4, 4);
+   text-shadow: 2px 2px 5px rgb(0, 183, 255);
+
+}
+.footer {
+   position: relative;
+   width: 100%;
+   background: rgb(185, 182, 182);
+   min-height: 10px;
+   padding: 20px 50px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ 
+ .social-icon,.menu
+  {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+ }
+
+ 
+ .social-icon__item,
+ .menu__item {
+   list-style: none;
+ }
+ 
+ .social-icon__link {
+   font-size: 2rem;
+   color: #030303;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+ }
+ .social-icon__link:hover {
+   transform: translateY(-10px);
+ }
+ 
+ .menu__link {
+   font-size: 1.2rem;
+   color: #030303;
+   margin: 0 10px;
+   display: flex;
+   transition: 0.5s;
+   text-decoration: none;
+   opacity: 0.75;
+   font-weight: 300;
+ }
+ 
+ .menu__link:hover {
+   opacity: 1;
+ }
+ 
+ .footer p {
+   color: #030303;
+   margin: 15px 0 10px 0;
+   font-size: 1rem;
+   font-weight: 300;
+ }
+ .flast{
+   text-align: center;
+ }
+ 
+ .wave {
+   position: absolute;
+   top: -30px;
+   left: 0;
+   width: 100%;
+   height: 30px;
+   background: url("https://i.ibb.co/C00br73/zwy70ejd.png");
+   background-size: 1000px 100px;
+ }
+ 
+ .wave#wave1 {
+   z-index: 1000;
+   opacity: 1;
+   bottom: 0;
+   animation: animateWaves 4s linear infinite;
+ }
+ 
+ .wave#wave2 {
+   z-index: 999;
+   opacity: 0.5;
+   bottom: 10px;
+   animation: animate 4s linear infinite !important;
+ }
+ 
+ .wave#wave3 {
+   z-index: 1000;
+   opacity: 0.2;
+   bottom: 15px;
+   animation: animateWaves 3s linear infinite;
+ }
+ 
+ .wave#wave4 {
+   z-index: 999;
+   opacity: 0.7;
+   bottom: 20px;
+   animation: animate 3s linear infinite;
+ }
+ 
+ @keyframes animateWaves {
+   0% {
+     background-position-x: 1000px;
+   }
+   100% {
+     background-positon-x: 0px;
+   }
+ }
+ 
+ @keyframes animate {
+   0% {
+     background-position-x: -1000px;
+   }
+   100% {
+     background-positon-x: 0px;
+   }
+ }
