@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.row{
+   align-items: center;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 100px;
+}
+.activeColor{
+  padding-top: 5px;
+  height: 30px;
+  width: 10%;
+  font-weight: 600px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+.pointer{
+  cursor: pointer;
+}
+button{
+  margin: 40px;
+  padding: 10px 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(20, 106, 236);
+  outline: none;
+  border-radius: 15px;
+  
+}
+button:hover{
+  margin: 40px;
+  padding: 10px 40px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(250, 251, 251);
+  outline: none;
+  border: 1px solid black;
+  
+
+}
+input{
+  margin: 20px;
+  padding: 10px 80px;
+  text-align: center;
+  border: 1px solid rgb(20, 106, 236);
+}
+h2{
+  margin: 50px;
+}
+.btn{
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  
+}
+.btn:hover{
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  padding: 10px 40px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(250, 251, 251);
+  outline: none;
+  border: 1px solid black;
+
+}
